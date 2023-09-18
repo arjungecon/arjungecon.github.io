@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Arjun Gopinath"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      light:
+        - flatly
+        - custom.scss
+      # dark:
+      #   - darkly
+      #   - custom.scss
+    css: styles.css
+    toc: true
+
+
+
